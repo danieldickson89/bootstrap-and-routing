@@ -1,8 +1,20 @@
 .pageTitle {
     font-size: 48px;
     text-align: center;
+    margin-top: 10px;
 }
 
 .yellow {
     color: rgb(250, 246, 14);
+}
+
+.alert {
+    margin: 10px 80px 20px 80px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.alert-secondary {
+    background-color: rgb(255, 255, 159);
+    border: 1px rgb(255, 255, 109) solid;
 }

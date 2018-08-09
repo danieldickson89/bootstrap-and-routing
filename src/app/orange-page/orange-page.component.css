@@ -1,8 +1,15 @@
 .pageTitle {
     font-size: 48px;
     text-align: center;
+    margin-top: 10px;
 }
 
 .orange {
     color: rgb(245, 158, 46);
+}
+
+.alert {
+    margin: 10px 80px 20px 80px;
+    text-align: center;
+    font-weight: bold;
 }

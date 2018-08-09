@@ -1,8 +1,52 @@
 .pageTitle {
     font-size: 48px;
     text-align: center;
+    margin-top: 10px;
 }
 
 .green {
     color: rgb(49, 236, 43);
+}
+
+.alert {
+    margin: 10px 80px 20px 80px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.myForm {
+    color: rgb(17, 221, 10);
+    margin: 0 80px 40px 80px;
+}
+
+.form-control {
+    color: rgb(49, 236, 43);
+    text-align: center;
+}
+
+.submitButtonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: rgba(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
 }
